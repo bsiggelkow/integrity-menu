@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowInternetPlugins</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>IntegrityMenu</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.bsiggelkow.widget.IntegrityMenu</string>
+	<key>CFBundleName</key>
+	<string>IntegrityMenu</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CloseBoxInsetX</key>
+	<integer>15</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>15</integer>
+	<key>Height</key>
+	<integer>168</integer>
+	<key>MainHTML</key>
+	<string>IntegrityMenu.html</string>
+	<key>Width</key>
+	<integer>206</integer>
+</dict>
+</plist>
