@@ -8,5 +8,6 @@ function setupParts() {
     CreateText('text', { text: 'Integrity Server URL:' });
     CreateText('text1', { text: 'minutes' });
     CreateText('text2', { text: 'Update every ...' });
+    CreateScrollArea('container', { hasVerticalScrollbar: true, scrollbarDivSize: 18, autoHideScrollbars: true, scrollbarMargin: 6, spacing: 4 });
 }
 window.addEventListener('load', setupParts, false);

@@ -13,20 +13,27 @@
     <script type="text/javascript" src="Parts/Text.js" charset="utf-8"></script>
     <script type="text/javascript" src="Parts/InfoButton.js" charset="utf-8"></script>
     <script type="text/javascript" src="Parts/GlassButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="jquery-1.3.2.js" charset="utf-8"></script>
     <script type="text/javascript" src="IntegrityMenu.js" charset="utf-8"></script>
+<script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleScrollbar.js" charset="utf-8"></script>
+<script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleScrollArea.js" charset="utf-8"></script>
+<script type="text/javascript" src="Parts/ScrollArea.js" charset="utf-8"></script>
 </head>
 <body onload="load();">
     <div id="front">
         <img id="frontImg" src="Images/front.png" alt="" apple-locked="true" apple-part="com.apple.Dashcode.part.frontimage" apple-style="image-theme: 1; image-shape: 3; image-opacity: 1.00; image-top-color: 1.0000,1.0000,1.0000; image-bottom-color: 0.6154,0.6154,0.6154; image-radius: 12,12,12,12; image-border: 1; image-border-color: 0.5294,0.5294,0.5294; image-border-width: 1; shine-strength: 0.9; shine-alpha-level: 0.67; shine-height: 0.50; glass-arc-height: 0.06; shadow-include-shadow: 1; shadow-blur: 9.00; shadow-offset: -1.00,-6.00; shadow-color: 0.0000,0.0000,0.0000,0.3333;">
         <div class="apple-no-children" id="info" apple-part="com.apple.Dashcode.part.infobutton" apple-default-image-visibility="hidden"></div>
-        
-    <div id="container"></div>
+    <div apple-part="com.apple.Dashcode.part.scrollarea" class="apple-scrollarea" id="container" apple-group="scrollArea">
+	
+<div id="content" class="content" apple-group="scrollArea" style="position: absolute; left: 0px; top: 0px; right: 22px; bottom: 0px; overflow-x: hidden; overflow-y: hidden; "></div>
     </div>
+    </div>
+	
     <div id="back">
        <img id="backImg" src="Images/back.png" alt="" apple-locked="true" apple-part="com.apple.Dashcode.part.backimage" apple-style=" image-radius: 12,12,12,12; image-border: 1; image-border-color: 0.1500,0.1500,0.1500; image-border-width: 3; shadow-include-shadow: 1; shadow-blur: 9.00; shadow-offset: -1.00,-6.00; shadow-color: 0.0000,0.0000,0.0000,0.3333;">
         
         <div id="done" class="apple-no-children" apple-part="com.apple.Dashcode.part.glassbutton"></div>
-    <input type="text" name="" value="" class="apple-textfield apple-no-children" apple-part="com.apple.Dashcode.part.textfield" id="server_url" apple-group="textfield">
+    <input type="text" name="" value="http://builder.integrityapp.com" class="apple-textfield apple-no-children" apple-part="com.apple.Dashcode.part.textfield" id="server_url" apple-group="textfield">
     <div apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" id="text" apple-group="text"></div>
     <input type="text" name="" value="5" class="apple-textfield apple-no-children" apple-part="com.apple.Dashcode.part.textfield" id="update_every" apple-group="textfield">
     <div apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" id="text1" apple-group="text1"></div>

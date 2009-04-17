@@ -16,8 +16,8 @@
 		<real>0.0</real>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {485, 473}}</string>
-			<string>{{0, 483}, {485, 295}}</string>
+			<string>{{0, 0}, {485, 447}}</string>
+			<string>{{0, 457}, {485, 321}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
@@ -25,7 +25,7 @@
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
-		<string>bc9670d30330af41</string>
+		<string>58549c8f5930af41</string>
 		<key>in-layer</key>
 		<true/>
 		<key>path</key>
@@ -35,20 +35,22 @@
 		<key>percent-offset-y</key>
 		<integer>0</integer>
 		<key>percent-type</key>
-		<integer>3</integer>
+		<integer>2</integer>
 		<key>percent-x</key>
-		<real>0.43869048357009888</real>
+		<real>0.36190477013587952</real>
 		<key>percent-y</key>
-		<real>0.41999998688697815</real>
+		<real>0.31523808836936951</real>
 		<key>pos-x</key>
-		<integer>737</integer>
+		<integer>806</integer>
 		<key>pos-y</key>
-		<integer>441</integer>
+		<integer>331</integer>
 		<key>rosetta</key>
 		<false/>
 	</dict>
 	<key>Design time language</key>
 	<string>en.lproj</string>
+	<key>EvaluatorFrame</key>
+	<string>755 662 479 226 0 0 1680 1028 </string>
 	<key>MainSplitViewGeometry</key>
 	<dict>
 		<key>_collapsingFrameDimension</key>
@@ -95,6 +97,10 @@
 		<array>
 			<integer>0</integer>
 			<integer>1</integer>
+		</array>
+		<array>
+			<integer>0</integer>
+			<integer>2</integer>
 		</array>
 	</array>
 	<key>Objects view last selections</key>

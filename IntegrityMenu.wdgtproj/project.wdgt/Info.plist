@@ -4,6 +4,8 @@
 <dict>
 	<key>AllowInternetPlugins</key>
 	<true/>
+	<key>AllowNetworkAccess</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
@@ -21,10 +23,10 @@
 	<key>CloseBoxInsetY</key>
 	<integer>15</integer>
 	<key>Height</key>
-	<integer>168</integer>
+	<integer>244</integer>
 	<key>MainHTML</key>
 	<string>IntegrityMenu.html</string>
 	<key>Width</key>
-	<integer>206</integer>
+	<integer>266</integer>
 </dict>
 </plist>
