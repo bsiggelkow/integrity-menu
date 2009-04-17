@@ -9,5 +9,6 @@ function setupParts() {
     CreateText('text1', { text: 'minutes' });
     CreateText('text2', { text: 'Update every ...' });
     CreateScrollArea('container', { hasVerticalScrollbar: true, scrollbarDivSize: 18, autoHideScrollbars: true, scrollbarMargin: 6, spacing: 4 });
+    CreateText('title', { text: 'Project Status' });
 }
 window.addEventListener('load', setupParts, false);

@@ -25,25 +25,25 @@
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
-		<string>58549c8f5930af41</string>
+		<string>6e5093816731af41</string>
 		<key>in-layer</key>
 		<true/>
 		<key>path</key>
-		<string>/private/var/folders/Dh/DhCnULwx2Ray6++F71JAp++++TI/-Tmp-/Dashcode/.IntegrityMenu.wdgtproj2FA74n/IntegrityMenu.wdgtproj/project.wdgt/</string>
+		<string>/private/var/folders/Dh/DhCnULwx2Ray6++F71JAp++++TI/-Tmp-/Dashcode/.IntegrityMenu.wdgtprojruKtKA/IntegrityMenu.wdgtproj/project.wdgt/</string>
 		<key>percent-offset-x</key>
 		<integer>0</integer>
 		<key>percent-offset-y</key>
 		<integer>0</integer>
 		<key>percent-type</key>
-		<integer>2</integer>
+		<integer>3</integer>
 		<key>percent-x</key>
-		<real>0.36190477013587952</real>
+		<real>0.43630951642990112</real>
 		<key>percent-y</key>
-		<real>0.31523808836936951</real>
+		<real>0.43142858147621155</real>
 		<key>pos-x</key>
-		<integer>806</integer>
+		<integer>733</integer>
 		<key>pos-y</key>
-		<integer>331</integer>
+		<integer>453</integer>
 		<key>rosetta</key>
 		<false/>
 	</dict>

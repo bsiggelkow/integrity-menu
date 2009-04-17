@@ -65,9 +65,9 @@ body {
     color: black;
     font-family: HelveticaNeue;
     font-size: 10pt;
-    left: 46px;
     top: 37px;
-    width: 114px;
+    left: 27px;
+    width: 157px;
 }
 
 #text1 {
@@ -77,8 +77,8 @@ body {
     text-overflow: ellipsis;
     overflow: hidden;
     color: rgb(255, 255, 255);
-    left: 89px;
-    top: 90px;
+    top: 88px;
+    left: 61px;
 }
 
 #text2 {
@@ -87,9 +87,9 @@ body {
     font-size: 10pt;
     text-overflow: ellipsis;
     overflow: hidden;
-    left: 46px;
-    top: 70px;
     color: rgb(255, 255, 255);
+    left: 27px;
+    top: 69px;
 }
 
 #update_every {
@@ -97,9 +97,9 @@ body {
     color: black;
     font-family: HelveticaNeue;
     font-size: 10pt;
-    top: 86px;
-    left: 50px;
     width: 20px;
+    top: 84px;
+    left: 27px;
 }
 
 ul#projects .meta {
@@ -143,8 +143,21 @@ ul#projects li {
     color: black;
     font-family: HelveticaNeue;
     font-size: 10pt;
-    left: 30px;
-    top: 35px;
-    height: 170px;
-    width: 211px;
+    width: 150px;
+    height: 85px;
+    left: 32px;
+    top: 41px;
+}
+
+#title {
+    position: absolute;
+    color: black;
+    font-size: 10pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    top: 21px;
+    height: 16px;
+    width: 86px;
+    left: 61px;
+    font-family: HelveticaNeue-Italic;
 }

@@ -3,8 +3,6 @@
 
 var url = 'http://builder.integrityapp.com';
 var update_time = 30000; // 5 minutes
-var last_updated = 0;
-var xml_request = null;
 var timer;
 
 function loadResults() {
@@ -13,8 +11,6 @@ function loadResults() {
 }
 
 loadResults();
-
-var sample = "<ul id='projects'><li class='even failed'><a href='/rentalhouses'>RentalHouses</a><div class='meta'>Built fbfb664 and failed</div></li></ul>";
 
 //
 // Function: load()
@@ -136,3 +132,9 @@ if (window.widget) {
     widget.onsync = sync;
 }
 
+
+
+function titleClickHandler(event)
+{
+    widget.openURL(url);
+}
