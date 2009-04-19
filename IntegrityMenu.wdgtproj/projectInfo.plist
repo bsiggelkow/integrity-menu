@@ -83,5 +83,13 @@
 	</array>
 	<key>TemplateIdentifier</key>
 	<string>com.apple.Dashcode.template.custom</string>
+	<key>WidgetIconImageSettings</key>
+	<string>image-theme: 1; image-shape: 3; image-opacity: 1.00; image-top-color: 1.0000,1.0000,1.0000; image-bottom-color: 0.6154,0.6154,0.6154; image-radius: 12,12,12,12; image-border: 1; image-border-color: 0.5294,0.5294,0.5294; image-border-width: 1; shine-strength: 0.90; shine-alpha-level: 0.67; shine-height: 0.50; glass-arc-height: 0.06; shadow-include-shadow: 1; shadow-blur: 9.00; shadow-offset: -1.00,-6.00; shadow-color: 0.0000,0.0000,0.0000,0.3333;</string>
+	<key>WidgetIconIncludeLayer</key>
+	<true/>
+	<key>WidgetIconLayerPoint</key>
+	<string>{18.5, 18.5}</string>
+	<key>WidgetIconLayerSize</key>
+	<string>{62, 62}</string>
 </dict>
 </plist>

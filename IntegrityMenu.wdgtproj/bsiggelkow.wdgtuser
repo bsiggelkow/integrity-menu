@@ -21,11 +21,11 @@
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>0</integer>
+	<integer>4</integer>
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
-		<string>20b74fbd7a31af41</string>
+		<string>10ae88e97b31af41</string>
 		<key>in-layer</key>
 		<true/>
 		<key>path</key>
@@ -66,7 +66,7 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>29 207 730 820 0 0 1680 1028 </string>
+	<string>30 208 730 820 0 0 1680 1028 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -106,9 +106,7 @@
 	<key>Objects view last selections</key>
 	<array>
 		<array>
-			<integer>0</integer>
-			<integer>0</integer>
-			<integer>2</integer>
+			<integer>4</integer>
 		</array>
 	</array>
 	<key>Opened Steps</key>
