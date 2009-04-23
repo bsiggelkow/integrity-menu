@@ -11,6 +11,22 @@ IntegrityMenu only requires two settings:
   2. The amount of time that the server will wait to update the project
      status (5 minutes by default).
 
+Installation
+==============================================================================
+1. Download IntegrityMenu.zip from
+ http://cloud.github.com/downloads/bsiggelkow/integrity-menu/IntegrityMenu.zip
+2. Double-click the IntegrityMenu widget to install it on your dashboard.
+3. Configure the widget by entering your Integrity server url and update time.
+
+Building from Source
+==============================================================================
+1. Download the source or clone the repository from
+   http://github.com/bsiggelkow/integrity-menu.
+2. Open IntegrityMenu.wdgtproj in Dashcode development tool.
+3. Deploy to directly to your dashboard or to a widget file.
+
+Desktop Usage
+==============================================================================
 To have this widget appear on your desktop once you have installed it on the
   dashboard, activate Dashboard development mode (thanks to
   http://www.macosxhints.com/article.php?story=20050422172929402)
