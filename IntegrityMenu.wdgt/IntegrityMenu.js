@@ -2,15 +2,13 @@
 // You may edit this file to customize your Dashboard widget.
 
 var url = 'http://builder.integrityapp.com';
-var update_time = 30000; // 5 minutes
+var update_time = 1000 * 60 * 5; // 5 minutes
 var timer;
 
 function loadResults() {
   full_url = url + ' ul#projects';
   $('#content').load(full_url);
 }
-
-loadResults();
 
 //
 // Function: load()
@@ -19,6 +17,7 @@ loadResults();
 function load()
 {
     setupParts();
+	loadResults();
 }
 
 //
@@ -103,7 +102,7 @@ function showFront(event)
 {
 	// saving server URL 
 	var server_url = document.getElementById('server_url').value;
-	var poll = document.getElementById('update_every').value * 6000;
+	var poll = document.getElementById('update_every').value * 60000;
 	if (url != server_url)
 	{
 		url = server_url;
