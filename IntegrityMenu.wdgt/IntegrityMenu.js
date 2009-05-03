@@ -5,12 +5,13 @@ var url = 'http://builder.integrityapp.com';
 var update_time = 1000 * 60 * 5; // 5 minutes
 var timer;
 
+$('ul#projects li a').live('click', function() {
+	widget.openURL(url+$(this).attr('href'));
+});
+
 function loadResults() {
   full_url = url + ' ul#projects';
   $('#content').load(full_url);
-  $('ul#projects li a').live('click', function() {
-	widget.openURL(url+$(this).attr('href'));
-  });
 }
 
 //

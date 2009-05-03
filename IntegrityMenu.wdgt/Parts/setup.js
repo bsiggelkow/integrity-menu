@@ -11,6 +11,6 @@ function setupParts() {
     CreateScrollArea('container', { hasVerticalScrollbar: true, scrollbarDivSize: 18, autoHideScrollbars: true, scrollbarMargin: 6, spacing: 4 });
     CreateText('title', { text: 'Integrity Menu' });
     CreateText('text3', { text: 'Integrity Menu' });
-    CreateText('text4', { text: 'v0.2.0' });
+    CreateText('text4', { text: 'v0.2.1' });
 }
 window.addEventListener('load', setupParts, false);
