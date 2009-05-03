@@ -8,6 +8,9 @@ var timer;
 function loadResults() {
   full_url = url + ' ul#projects';
   $('#content').load(full_url);
+  $('ul#projects li a').live('click', function() {
+	widget.openURL(url+$(this).attr('href'));
+  });
 }
 
 //
@@ -106,6 +109,7 @@ function showFront(event)
 	if (url != server_url)
 	{
 		url = server_url;
+		$('#title').html(url);
 		loadResults();
 	}
 

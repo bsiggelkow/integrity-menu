@@ -5,10 +5,12 @@ function setupParts() {
     setupParts.called = true;
     CreateInfoButton('info', { frontID: 'front', foregroundStyle: 'white', backgroundStyle: 'black', onclick: 'showBack' });
     CreateGlassButton('done', { text: 'Done', onclick: 'showFront' });
-    CreateText('text', { text: 'Integrity Server URL:' });
+    CreateText('text', { text: 'URL:' });
     CreateText('text1', { text: 'minutes' });
-    CreateText('text2', { text: 'Update every ...' });
-    CreateText('title', { text: 'Project Status' });
+    CreateText('text2', { text: 'Update every' });
     CreateScrollArea('container', { hasVerticalScrollbar: true, scrollbarDivSize: 18, autoHideScrollbars: true, scrollbarMargin: 6, spacing: 4 });
+    CreateText('title', { text: 'Integrity Menu' });
+    CreateText('text3', { text: 'Integrity Menu' });
+    CreateText('text4', { text: 'v0.2.0' });
 }
 window.addEventListener('load', setupParts, false);

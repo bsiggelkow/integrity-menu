@@ -45,29 +45,29 @@ body {
     position: absolute;
     right: 24px;
     margin-left: auto;
-    bottom: 25px;
+    bottom: 21px;
     margin-top: auto;
 }
 
 #text {
     position: absolute;
     font-family: HelveticaNeue;
-    font-size: 10pt;
     text-overflow: ellipsis;
     overflow: hidden;
     color: rgb(255, 255, 255);
-    left: 46px;
-    top: 22px;
+    font-size: 10pt;
+    left: 23px;
+    top: 74px;
 }
 
 #server_url {
     position: absolute;
     color: black;
     font-family: HelveticaNeue;
-    font-size: 10pt;
-    top: 37px;
-    left: 27px;
-    width: 157px;
+    font-size: 8pt;
+    width: 128px;
+    top: 69px;
+    left: 60px;
 }
 
 #text1 {
@@ -77,8 +77,8 @@ body {
     text-overflow: ellipsis;
     overflow: hidden;
     color: rgb(255, 255, 255);
-    top: 88px;
-    left: 61px;
+    top: 99px;
+    left: 148px;
 }
 
 #text2 {
@@ -88,18 +88,18 @@ body {
     text-overflow: ellipsis;
     overflow: hidden;
     color: rgb(255, 255, 255);
-    left: 27px;
-    top: 69px;
+    top: 99px;
+    left: 23px;
 }
 
 #update_every {
     position: absolute;
     color: black;
     font-family: HelveticaNeue;
-    font-size: 10pt;
     width: 20px;
-    top: 84px;
-    left: 27px;
+    font-size: 8pt;
+    left: 114px;
+    top: 97px;
 }
 
 ul#projects .meta {
@@ -140,15 +140,17 @@ ul#projects li {
 
 #title {
     position: absolute;
-    color: black;
-    font-size: 10pt;
     text-overflow: ellipsis;
     overflow: hidden;
     top: 21px;
     height: 16px;
-    width: 86px;
-    left: 61px;
-    font-family: HelveticaNeue-Italic;
+    font-family: Monaco;
+    font-size: 8pt;
+    width: 150px;
+    left: 34px;
+    text-align: center;
+    color: rgb(255, 0, 128);
+    text-shadow: none;
 }
 
 #container {
@@ -160,4 +162,39 @@ ul#projects li {
     height: 85px;
     left: 34px;
     top: 41px;
+}
+
+#title {
+    text-decoration: underline;
+    color: rgb(220, 0, 110);
+    font-family: TrebuchetMS-Bold;
+    font-size: 12px;
+}
+
+#text3 {
+    position: absolute;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: rgb(255, 111, 207);
+    font-size: 12pt;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    text-shadow: none;
+    font-family: Georgia-Bold;
+    left: 48px;
+    top: 28px;
+}
+
+#text4 {
+    position: absolute;
+    font-family: HelveticaNeue;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 44px;
+    left: 87px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 8pt;
+    height: 12px;
+    top: 48px;
 }
